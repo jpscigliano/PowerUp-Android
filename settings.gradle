@@ -102,3 +102,4 @@ rootProject.name = "PowerUps"
 include ':app'
 include ':domain'
 include ':data'
+include ':framework'
