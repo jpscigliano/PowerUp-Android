@@ -33,6 +33,7 @@ dependencyResolutionManagement {
             version('lifecycle', '2.4.0')
             alias('lifecycle-viewmodel').to('androidx.lifecycle', 'lifecycle-viewmodel-ktx').versionRef('lifecycle')
 
+
             version('material', '1.5.0')
             alias('ui-material').to('com.google.android.material', 'material').versionRef('material')
 
@@ -47,12 +48,24 @@ dependencyResolutionManagement {
             alias('compose-animation').to('androidx.compose.animation', 'animation').versionRef('compose-animation')
 
 
+            version('compose-ui', '1.2.1')
+            alias('compose-ui').to('androidx.compose.ui', 'ui').versionRef('compose-ui')
+            alias('compose-ui-preview').to('androidx.compose.ui', 'ui-tooling-preview').versionRef('compose-ui')
+            alias('compose-ui-tooling').to('androidx.compose.ui', 'ui-tooling').versionRef('compose-ui')
+
+            version('compose-foundation', '1.2.1')
+            alias('compose-foundation').to('androidx.compose.foundation', 'foundation').versionRef('compose-foundation')
+
+
             version('accompanist', '0.26.0-alpha')
             alias('accompanist-systemui').to('com.google.accompanist', 'accompanist-systemuicontroller').versionRef('accompanist')
             alias('accompanist-navigation').to('com.google.accompanist', 'accompanist-navigation-animation').versionRef('accompanist')
 
             version('hilt-navigation-compose', '1.0.0')
             alias('hilt-navigation-compose').to('androidx.hilt', 'hilt-navigation-compose').versionRef('hilt-navigation-compose')
+
+            version('compose-viewmodel', '2.5.1')
+            alias('compose-viewmodel').to('androidx.lifecycle', 'lifecycle-viewmodel-compose').versionRef('compose-viewmodel')
 
 
             //DI
