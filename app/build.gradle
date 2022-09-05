@@ -40,6 +40,10 @@ android {
 
 dependencies {
 
+
+    implementation project(":framework")
+    implementation project(":presentation")
+    implementation project(":domain")
     //Kotlin
     implementation libs.kotlin.coroutines
 
