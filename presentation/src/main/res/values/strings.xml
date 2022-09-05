@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="buy_at_tibber">Buy at the Tibber store</string>
+    <string name="connect_tibber">Connect to Tibber </string>
+    <string name="disconnect_tibber">Disconnect from Tibber </string>
+    <string name="more_about">More about %s</string>
+
+    <string name="upps_error">Oj, det borde inte ha hänt</string>
+    <string name="generic_error">Not sure what happened. Please try again later</string>
+    <string name="no_internet_error">Please check your connection and try later</string>
+    <string name="power_up_not_found_error">The power up is invalid.</string>
+
+
+    <string name="header_active_power_up">Active power-ups</string>
+    <string name="header_available_power_up">Available power-ups</string>
+ 
+
+</resources>
